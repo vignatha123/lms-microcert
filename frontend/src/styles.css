@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f7fb;
+    margin: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+}
+
+nav {
+    background: #0b2f6b;
+    color: white;
+    padding: 12px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    color: white;
+    margin-left: 12px;
+    text-decoration: none;
+}
+
+button {
+    padding: 8px 12px;
+    border-radius: 6px;
+    border: none;
+    cursor: pointer;
+}
+
+.card {
+    padding: 16px;
+    border-radius: 8px;
+    background: #fff;
+    margin-bottom: 12px;
+}
+
+.question {
+    margin-bottom: 12px;
+}
+
+.option {
+    display: block;
+    margin: 6px 0;
+}
+
+.small {
+    font-size: 14px;
+    color: #666;
+}
+
+.success {
+    color: green;
+}
+
+.fail {
+    color: red;
+}
